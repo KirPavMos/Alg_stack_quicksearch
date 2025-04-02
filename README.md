@@ -26,3 +26,4 @@ README.md
 02_recurs_sum.py
 03_quicksort.py
 04_quicksort_time.py
+01_анализ стека Фибоначчи.txt
