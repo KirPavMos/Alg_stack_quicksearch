@@ -1,0 +1,30 @@
+Анализ стека вызовов для n = 5
+При вызове fibonacci(5) функция будет рекурсивно вызывать себя
+с меньшими значениями n, пока не достигнет базовых случаев
+(n = 0 или n = 1).
+Стек вызовов:
+fibonacci(5)
+Вызывает fibonacci(4) и fibonacci(3)
+
+fibonacci(4)
+Вызывает fibonacci(3) и fibonacci(2)
+
+fibonacci(3)
+Вызывает fibonacci(2) и fibonacci(1)
+
+fibonacci(2)
+Вызывает fibonacci(1) и fibonacci(0)
+
+fibonacci(1)
+Возвращает 1 (базовый случай)
+
+fibonacci(0)
+Возвращает 0 (базовый случай)
+
+fibonacci(2) = fibonacci(1) + fibonacci(0) = 1 + 0 = 1
+
+fibonacci(3) = fibonacci(2) + fibonacci(1) = 1 + 1 = 2
+
+fibonacci(4) = fibonacci(3) + fibonacci(2) = 2 + 1 = 3
+
+fibonacci(5) = fibonacci(4) + fibonacci(3) = 3 + 2 = 5
